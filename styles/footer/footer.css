@@ -9,6 +9,20 @@
 .footer__map {
   width: 50%;
 }
+.footer-details {
+  font-weight: lighter;
+
+  letter-spacing: 1px;
+}
+.footer-details a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.1s linear all;
+}
+.footer-details a:hover {
+  color: var(--first-orange);
+}
 .footer__contact-container {
   height: auto;
   display: flex;
